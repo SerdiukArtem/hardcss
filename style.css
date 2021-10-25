@@ -1,21 +1,36 @@
 * {
-  height: 1920;
-  width: 1080;
-  background-color: #9A0909FF;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #990909FF;
+
 }
 
-.section {
-  color:rgb(119, 4, 4);
-  font-size: 10px;
+.logo .logo_img {
+  display: block;
+  margin: 0 auto;
+}
+
+.waiting {
+  background-color: black;
+  padding: 45px 0 45px 0;
+}
+
+.waiting .wrapper { 
+  background-color: black;
+}
+
+.waiting .wrapper .navi {
+  display: inline-block;
+  background-color: black;
+  }
+
+.descr {
+  background-color: black;
+  color: white;
   text-align: center;
 }
 
-nav {
-  color: rgb(244, 247, 244);
-  font-size: large;
+img {
+  margin: 0 100px 0 87px;
 }
-
-ul {
-  background-color: rgb(3, 3, 3);
-}
-
