@@ -2,97 +2,87 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: #990909FF;
-
 }
 
-.logo .logo_img {
-  display: block;
-  margin: 0 auto;
+body {
+  background: #990909FF;
 }
 
-.waiting {
-  background-color: #000000;
-  padding: 45px 0 45px 0;
+header {
+  overflow: hidden;
+  height: 205px;
 }
 
-.waiting .wrapper { 
-  background-color: black;
-}
-
-.waiting .wrapper .navi {
-  display: inline-block;
-  background-color: #000000;
-  }
-
-.descr {
-  background-color: #000000;
-  color: white;
+.logo_container {
+  height: 45px;
+  background: #961010FF;
   text-align: center;
+  padding: 7px;
 }
 
-img {
-  margin: 0 100px 0 87px;
+.navigation {
+  background: #000000;
+  margin: 0 10px 0 10px;
+}
+
+.navigation ul {
+  padding: 15px;
+  display: flex;
+  justify-content: space-around;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+  text-align: center;
 }
 
 .main {
   display: flex;
-  text-align: left;
 }
 
-li {
-  
-  border:1px solid #7D0909FF;
-  padding: 10px 150px 50px 100px;
-  background-color: #7D0909FF;
-  
+.article {
+  width: 700px;
+  height: 290px;
+  margin-left: 10px;
+  background: #930202FF;
 }
 
-a {
-  background-color:#7D0909FF;
-  color: #DB4D0FFF;
-}
-
-.section p {
-  margin-top: 30px;
-  color: white;
+.article ul li a {
+  color: #E45610FF;
+  text-decoration: underline;
 }
 
 .section {
-  color: #fff;
+  display: inline;
+  color: #ffffff;
+}
+
+.section p {
+  margin-top: 14px;
+}
+
+h2 {
+  text-align: center;
+  background: #BDBDBDFF;
 }
 
 .aside {
-  margin-left: 10px;
-  margin-right: 10px;
-  background: white;
-}
-
-.aside h2 {
-  margin-top: 10px;
-  margin-right: 10px;
-  margin-left: 10px;
-  text-align: center;
-  background:#BDBDBDFF;
+  width: 570px;
+  height: 290px;
+  background: #ffffff;
 }
 
 .aside p {
-margin-top: 50px;
-background: white;
+  margin-top: 14px;
 }
 
-hr {
-  margin-top: 5px;
-  margin-left: 50px;
-  margin-right: 50px;
-  margin-bottom: 10px;
-  background: #000;
-}
-
-footer p {
+footer {
+  background: #E85B11FF;
+  color: #ffffff;
+  margin-top: 19px;
+  margin-left: 8px;
   text-align: center;
-  background: #E95B11FF;
-  color: white;
 }
 
 
